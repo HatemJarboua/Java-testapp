@@ -9,6 +9,6 @@ public class HelloWorld implements SparkApplication {
 
 	@Override
 	public void init() {
-		get("/", (req, res) -> "DevOps devops after pushhhhhhhhhhhhhhhh");
+		get("/", (req, res) -> "DevOps after first pushhhhhhhhhhhhhhhh");
 	}
 }
